@@ -1,3 +1,19 @@
+@import "reset.css";
+
 .hidden {
   display: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(bgimg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#login-form #greeting {
+  justify-content: center;
+  align-items: center;
 }
