@@ -20,7 +20,7 @@ const li = document.createElement("li");
 li.id = newTodo.id ;
 const span = document.createElement("span");
 const todoBtn = document.createElement("button")
-todoBtn. innerText = "X";
+todoBtn. innerText = "OK";
 li.appendChild(span);
 li.appendChild(todoBtn);
 todoBtn.addEventListener("click", deleteTodo);  //버튼을 누르면 list 삭제하는 함수호출

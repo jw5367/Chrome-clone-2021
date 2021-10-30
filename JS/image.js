@@ -5,4 +5,3 @@ const bgimg = document.createElement("img");
 
 bgimg.src = `img/${ranImage}`;
 document.body.appendChild(bgimg) ;
-
